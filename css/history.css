@@ -154,10 +154,12 @@
     font-size: 14px;
     text-align: left;
 }
+.goal__list p.goal {color: rgb(255, 251, 0);}
 .goal__list p.goal:before {content: 'G - ';}
 .goal__list p.as {
     margin: 3px 0 0;
     font-size: 12px;
+    color: rgb(0, 23, 233);
 }
 .goal__list p.as:before {content: 'AS - ';}
 .goal__list {}
