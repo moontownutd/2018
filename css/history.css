@@ -170,9 +170,8 @@
 @media screen and (max-width: 768px) {
     #contents {padding: 0 20px;}
 
-    .score__total {
-        width: 100%;        
-    }
+    .score__total {width: 100%;}
+    .score__total .total {font-size: 18px;}
     .record {
         width: 100%;
         display: block;
