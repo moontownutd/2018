@@ -27,11 +27,13 @@
     display: inline-block;
     font-size: 0;    
     text-align: center;
+    vertical-align: top;
 }
 .youteam {
     display: inline-block;
     font-size: 0;
     text-align: center;
+    vertical-align: top;
 }
 .emblem {
     width: 70px;
@@ -127,9 +129,10 @@
 }
 .playmember__list li {margin: 5px 0 0;}
 .playmember__list li:first-child {margin: 0;}
+.playmember__list li.gk {color: rgb(6, 185, 0);}
 .playmember__list li.gk:after {
     content: ' - GK';
-    font-size: 13px;
+    font-size: 13px;    
 }
 .score__detail {
     width: calc(100% - 130px);
@@ -175,6 +178,32 @@
         display: block;
         margin: 30px 0 0;
         padding: 30px 0 0;
+        border-top: 1px solid rgb(255,255,255);
+    }
+    .txt__set {margin: 0 0 10px;}
+    .playmember__list {
+        width: 100%;
+        float: none;
+        border: 0;
+    }
+    .playmember__list li, .playmember__list li:first-child {                
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .playmember__list li:last-child {margin: 0;}
+    .score__detail {
+        width: 100%;
+        padding: 0;
+        margin: 20px 0 0;
+        text-align: center;
+    }
+    .goal__list {
+        margin: 10px 0 0;
+        padding: 10px 0 0;
+        position: relative;
+        top: 0;
+        left: 0;
         border-top: 1px solid rgb(255,255,255);
     }
 }
