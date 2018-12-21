@@ -189,9 +189,10 @@
     .playmember__list li, .playmember__list li:first-child {                
         display: inline-block;
         margin-right: 5px;
-        font-size: 12px;
+        font-size: 11px;
     }
     .playmember__list li:last-child {margin: 0;}
+    .playmember__list li.gk:after {font-size: 10px;}
     .score__detail {
         width: 100%;
         padding: 0;
