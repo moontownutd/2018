@@ -32,9 +32,9 @@
 				 success: function(data) { 
 					console.log('aaa');
 
-					var member = JSON.stringify(data);
+					var member = JSON.parse(data);
 
-					console.log(member);
+					console.log(member.mname);
 				 },
                  error : function(e) {
 					console.log('eee');
